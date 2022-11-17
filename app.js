@@ -9,5 +9,5 @@ app.use(express.json());
 HelloController(app);
 UserController(app);
 TuitsController(app);
-app.use(cors())
+app.use(cors());
 app.listen(4000)
